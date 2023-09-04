@@ -18,3 +18,24 @@ body {
   color: #fff;
   background: #1e293b;
 }
+
+.wrapper {
+  max-width: 405px;
+  background: #fff;
+  margin: 137px auto;
+  padding: 28px 0 30px;
+  border-radius: 7px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.task-input {
+  height: 52px;
+  padding: 0 25px;
+  position: relative;
+}
+
+.task-input img {
+  top: 50%;
+  position: absolute;
+  transform: translate(17px, -50%);
+}
