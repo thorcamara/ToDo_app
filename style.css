@@ -219,3 +219,11 @@ li {
 .task-menu li:last-child {
   margin-bottom: 0;
 }
+
+.settings li:hover {
+  background: #f5f5f5;
+}
+
+.settings li i {
+  padding-right: 8px;
+}
