@@ -101,3 +101,18 @@ li {
   pointer-events: none;
   transition: transform 0.25s ease;
 }
+
+.clear-btn.active {
+  opacity: 0.9;
+  pointer-events: auto;
+}
+
+.clear-btn:active {
+  transform: scale(0.93);
+}
+
+.task-box {
+  margin-top: 20px;
+  margin-right: 5px;
+  padding: 0 20px 10px 25px;
+}
