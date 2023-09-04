@@ -202,3 +202,20 @@ li {
   bottom: -65px;
   transform-origin: top right;
 }
+
+.task-menu.show {
+  transform: scale(1);
+}
+
+.task-menu li {
+  height: 25px;
+  font-size: 16px;
+  margin-bottom: 2px;
+  padding: 17px 15px;
+  cursor: pointer;
+  justify-content: flex-start;
+}
+
+.task-menu li:last-child {
+  margin-bottom: 0;
+}
